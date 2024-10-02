@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'myfirstfont';
+    src: url('./Fonts/ITCKabelStdBold.TTF');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: auto !important;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+    .btn-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .btn-1:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.671);
+    }
+}
+
+.hero-section {
+    background: url('../images/top-section-bg.png');
+    background-color: black;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-size: 60px;
+        font-family: 'myfirstfont';
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: 'myfirstfont';
+    }
+
+}
+
+.section-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    background-size: auto !important;
+    position: relative;
+    transition: 0.5s;
+
+    .text {
+        color: red;
+    }
+}
+
+.section-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    background-size: auto !important;
+    position: relative;
+    transition: 0.5s;
+
+    .text {
+        color: red;
+    }
+}
+
+.img-align {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-series {
+    width: 20px;
+    margin-left: -10px;
+}
+
+.img-series:hover {
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    transition: 0.4s;
+}
+
+.corner-icon {
+    display: flex;
+    width: 30px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    width: auto !important;
+    padding: 100px 0;
+    background-color: black;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #121212;
+    flex-wrap: wrap;
+    .text{
+        color: red !important;
+    }
+}
