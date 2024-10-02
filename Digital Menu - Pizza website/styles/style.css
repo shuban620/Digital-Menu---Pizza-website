@@ -28,6 +28,19 @@ header {
     }
 }
 
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.img-badge{
+    width: 40%;
+    padding-right: 5px;
+}
+
 .hero-section {
     background: url('../images/top-section-bg.png');
     background-color: black;
@@ -90,13 +103,13 @@ header {
 .img-series {
     width: 20px;
     margin-left: -10px;
+    transition: 0.4s;
 }
 
 .img-series:hover {
     -ms-transform: scale(2);
     -webkit-transform: scale(2);
     transform: scale(2);
-    transition: 0.4s;
 }
 
 .corner-icon {

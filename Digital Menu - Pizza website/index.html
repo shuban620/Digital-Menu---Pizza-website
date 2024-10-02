@@ -20,38 +20,36 @@
             </div>
         </div>
     </section>
-    <header class="container d-flex justify-content-center align-items-center flex-wrap gap-4 rounded-pill">
+    <header class="container d-flex justify-content-center align-items-center flex-wrap gap-4 rounded-pill" role="group" aria-label="Section Buttons">
         <div>
-            <a class="btn btn-1 rounded-pill" href="#"><img class="" src="./images/cutlery 2.png" alt="cutlery"> ALL</a>
+            <a role="button" class="btn btn-1 rounded-pill" data-target="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"><img src="./images/cutlery 2.png" alt="cutlery"> ALL</a>
         </div>
         <div>
-            <a class=" rounded-pill btn btn-1" href="#"><img class="" src="./images/cup 3.png" alt="cup"> COLD
-                DRINKS</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="1,2,3"><img src="./images/cup 3.png" alt="cup"> COLD DRINKS</a>
         </div>
         <div>
-            <a class="rounded-pill btn btn-1" href="#"><img class="" src="./images/pizza 1.png" alt="pizza"> PIZZA</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="4,5,6"><img class="img-badge" src="./images/pizza 1.png" alt="pizza"> PIZZA</a>
         </div>
         <div>
-            <a class="rounded-pill btn btn-1" href="#"><img class="" src="./images/dish 1.png" alt="dish"> SALADES</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="7,8,9"><img class="img-badge" src="./images/dish 1.png" alt="dish"> SALADS</a>
         </div>
         <div>
-            <a class="rounded-pill btn btn-1" href="#"><img class="" src="./images/donut.png" alt="donut"> SWEETS</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="10,11,12"><img class="img-badge" src="./images/donut.png" alt="donut"> SWEETS</a>
         </div>
         <div>
-            <a class="rounded-pill btn btn-1" href="#"><img class="" src="./images/meat 2.png" alt="meat"> TEXMEX</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="13,14"><img class="img-badge" src="./images/meat 2.png" alt="meat"> TEXMEX</a>
         </div>
         <div>
-            <a class="rounded-pill btn btn-1" href="#"><img class="" src="./images/burger.png" alt="burger"> BURGER</a>
+            <a role="button" class="rounded-pill btn btn-1" data-target="15,16"><img class="img-badge" src="./images/burger.png" alt="burger"> BURGER</a>
         </div>
         <div>
-            <a class="btn bg-danger rounded-pill text-white btn-1" href="#">FILTER <img class=""
-                    src="./images/Group.png" alt="Group"></a>
+            <a role="button" class="btn bg-danger rounded-pill text-white btn-1">FILTER <img src="./images/Group.png" alt="Group"></a>
         </div>
-    </header>
+    </header>    
     <section class="container-fluid">
         <div class="container mb-3">
             <div class="row">
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-1" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
@@ -87,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-2" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
@@ -123,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-3" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
@@ -159,14 +157,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-4" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">COLD DRINKS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -195,14 +193,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-5" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">COLD DRINKS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -231,14 +229,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-6" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">COLD DRINKS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -267,14 +265,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-7" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SALADES</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -303,14 +301,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-8" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SALADES</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -339,14 +337,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-9" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SALADES</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -375,14 +373,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-10" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SWEETS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -411,14 +409,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-11" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SWEETS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -447,14 +445,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-12" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">SWEETS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -483,14 +481,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-13" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">TEXMEX</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -519,14 +517,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-14" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">TEXMEX</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -555,14 +553,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-15" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">BURGERS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -591,14 +589,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-2 col-md-6 col-sm-12">
+                <div id="section-16" class="section col-lg-3 p-2 col-md-6 col-sm-12">
                     <div class="section-card">
                         <div class="d-flex justify-content-between align-items-center spacing">
                             <div class="img-fluid">
                                 <img src="./images/pizza-full.png" alt="pizza-full">
                             </div>
                             <div class="d-flex justify-content-center align-items-left flex-column">
-                                <h5 class="fw-bold">PIZZAS</h5>
+                                <h5 class="fw-bold">BURGERS</h5>
                                 <p>Delicious and spicy</p>
                                 <div class="img-align d-flex justify-content-left align-items-left">
                                     <img class="img-series" src="./images/Arachide.png" alt="Arachide">
@@ -705,12 +703,13 @@
                     <span class="text"><i class="fa-solid fa-phone-flip"></i></span>
                     <h1> 123-4567-8901</h1>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 flex-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <p class="fw-light">COPYRIGHT 2023 ALL RESERVED. CRAFTED BY DESCLICK</p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>
